@@ -1,0 +1,346 @@
+/**
+ * 头部导航
+ */
+#header > .topbar{
+    border-bottom: 1px solid #cccccc;
+}
+
+
+#header .topbar a{
+    color: #888;
+    font-size: 12px;
+}
+
+#header .navbar{
+    margin-bottom: 0;
+    border: none;
+}
+
+#header .navbar a{
+    color: #888;
+    font-size: 14px;
+}
+
+#header .navbar-brand{
+    height: 80px;
+}
+
+#header a.btn-register{
+    color: #ffffff;
+}
+
+#header > .topbar > .container > .row > div{
+    height: 40px;
+    line-height: 40px;
+    color: #888;
+}
+
+#header > .topbar > .container > .row > div + div{
+    border-left: 1px solid #cccccc;
+}
+
+#header .topbar .icon_mobilephone::before {
+    content: "\e943";
+    font-size: 15px;
+}
+
+#header .topbar .icon_telephone::before{
+    content: "\e926";
+    font-size: 15px;
+}
+
+#header .topbar .qr_code img{
+    position: absolute;
+    left: 50%;
+    top: 28px;
+    margin-left: -60px;
+    display: none;
+    z-index: 1001;
+}
+
+#header .topbar .qr_code:hover img{
+    display: block;
+}
+
+
+#header .icon_icon{
+    font-size: 30px;
+    color: #DB3B43;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header .icon_logo{
+    font-size: 20px;
+    color: #333;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#header i.icon_icon::before{
+    content: "\e945";
+
+}
+
+#header i.icon_logo::before{
+    content: "\e946";
+
+}
+
+
+
+/**
+ * banner图
+ */
+#banner{
+}
+
+#banner > .carousel-indicators{
+
+}
+
+#banner > .carousel-inner{
+
+}
+
+
+/*满足当前宽度大于这个最小宽度的时候会来到{}内部*/
+@media (min-width: 768px) {
+    #banner > .carousel-inner > .item{
+        height: 410px;
+        /*也可以直接在js中设置*/
+    }
+}
+
+#banner > .carousel-inner > .item img{
+    width: 100%;
+}
+
+#banner > a.carousel-control{
+
+}
+
+
+/**
+ * 菜单栏
+ */
+
+.icon_usd_barchart:before {
+    content: "\e934";
+}
+
+.icon_pay_square:before {
+    content: "\e937";
+}
+
+.icon_usd:before {
+    content: "\e928";
+}
+
+.icon_insurance:before {
+    content: "\e92d";
+}
+
+.icon_uniE907:before {
+    content: "\e941";
+}
+
+.icon_wechat-o:before {
+    content: "\e933";
+}
+
+#menu{
+    padding: 50px 0;
+}
+
+#menu i{
+    font-size: 34px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+
+
+#menu div{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#menu span{
+
+}
+
+
+
+.media .media-left i.icon_wechat-o{
+    font-size: 34px;
+}
+
+#media{
+    padding-left: 30px;
+}
+
+#media .row > div{
+    margin-bottom: 30px;
+}
+
+
+/**
+ * litter tip
+ */
+#litter_tip{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    line-height: 60px;
+}
+
+/*小tip : 如果想要文字跟i标签中的字体图标相对齐,那么可以设置span的vertical-align:top*/
+#litter_tip span{
+    font-size: 14px;
+}
+
+#litter_tip .pull-left .icon_voice{
+    padding-right: 10px;
+}
+
+.icon_voice::before{
+    content: "\e93e";
+}
+
+#litter_tip .pull-right .icon_book{
+
+}
+
+.icon_book:before {
+    content: "\e940";
+}
+
+#litter_tip .pull-right a:nth-of-type(1) > span{
+     margin-right: 30px;
+}
+
+#litter_tip a{
+    color: #222;
+}
+
+#litter_tip a:hover{
+    text-decoration: none;
+    color: #222;
+}
+
+
+/**
+ * tab 选项卡
+ */
+#tab {
+    padding-top: 40px;
+    background-color: #cccccc;
+}
+#tab ul{padding: 0 10px;}
+
+#tab ul > li > a{
+    font-size: 16px;
+    color: #333;
+}
+
+#tab .container ul > li > a:hover{
+    border-color: transparent;
+    background-color: transparent;
+    color: #000;
+}
+
+#tab .container ul > li.active > a{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid #e92322;
+}
+
+
+
+#tab .tab-content{
+    padding-top: 40px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#tab .tab-content .decription{
+    color: #ffffff;
+    background-color: #e92322;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+
+
+#tab .tab-content .row .decription > .dec_left{
+    overflow: hidden;
+    padding: 10px 10px 10px 30px;
+}
+
+#tab .tab-content .row .decription > .dec_left > i.icon_tiyan{
+    font-size: 30px;
+    position: absolute;
+    top: -8px;
+    left: 18px;
+}
+
+i.icon_tiyan::before{
+    content: "\e920";
+}
+
+
+
+#tab p{
+    margin-bottom: 0;
+}
+
+
+#tab .row{
+    padding-bottom: 10px;
+}
+
+
+
+
+#tab .tab-content .row .decription > .dec_right{
+    float: right;
+    border-left: 1px dashed #e0e0e0;
+    width: 100px;
+    height: 149px;
+    text-align: center;
+    padding-top: 54px;
+    position: relative;
+}
+
+@media (min-width: 970px) {
+    #tab .experience{
+        font-size: 16px;
+    }
+}
+
+#tab .tab-content .row .decription > .dec_right > p{
+    font-size: 20px;
+}
+
+#tab .tab-content .row .decription > .dec_right > .top_circle{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 50%;
+    top: -8px;
+    left: -8px;
+}
+
+#tab .tab-content .row .decription > .dec_right > .bottom_circle{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 50%;
+    top: 126px;
+    left: -8px;
+    box-shadow: 0 2px 1px #666 inset;
+}
