@@ -23,7 +23,7 @@ function countScreenWidth() {
                     // $(item).height("auto");
                 }else {
 
-                    $(item).css('background', 'url("' + $(item).data().imageBm + '") center center');
+                    $(item).css('background', 'url("' + $(item).data().imageBm + '") center center / cover');
                     // $(item).height(410);
                     $(item).empty();
                 }
